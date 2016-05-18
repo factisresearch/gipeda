@@ -78,7 +78,7 @@ var routes = {
             };
           },
           download: function () {
-            return ['out/all-summaries.json','out/graphs/' + viewData.benchName + '.json'];
+            return ['out/latest-summaries.json','out/graphs/' + viewData.benchName + '.json'];
           },
           url: function (benchName, hls) {
             var comps = [ "graph/" + benchName ];
