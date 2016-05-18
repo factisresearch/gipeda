@@ -31,7 +31,7 @@ import ReportTypes
 
 {- Global settings -}
 cGRAPH_HISTORY :: Integer
-cGRAPH_HISTORY = 50
+cGRAPH_HISTORY = 100
 
 git :: (CmdResult b) => String -> [String] -> Action b
 git gitcmd args = do
